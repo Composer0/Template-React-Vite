@@ -1,15 +1,26 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.scss'
-import Card from './components/Card/Card.jsx'
+import { useState } from 'react';
+import reactLogo from './assets/react.svg';
+import viteLogo from '/vite.svg';
+import './App.scss';
+import 'animate.css';
+import Card from './components/Card/Card.jsx';
+import Table from './components/Table/Table.jsx';
+import NavigationBar from './components/NavigationBar/NavigationBar.jsx';
+// import ToDoAdd from './components/ToDoAdd/ToDoAdd.jsx';
+// import LoginPage from './components/LoginRegister/Login.jsx';
+// import RegisterPage from './components/LoginRegister/Register.jsx';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-    <Card />
+    <NavigationBar />
+    <div id="Card">
+      <Card/>
+      <Card/>
+    </div>
+    <Table id="Table"/>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />

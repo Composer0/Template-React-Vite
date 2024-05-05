@@ -4,11 +4,12 @@ import { faGithub, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
 import './Card.scss';
 import museImage from '../../assets/img/muse.jpg';
+import 'animate.css';
 
 const Card = () => {
   return (
     <div id="card-group">
-      <div className="card-wrapper">
+      <div className="card-wrapper animate__animated animate__zoomIn">
         <a href="#" className="img-wrapper">
           <img src={museImage} alt="project image" />
         </a>
