@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg';
 import './App.scss';
 import 'animate.css';
 import Card from './components/Card/Card.jsx';
-import Table from './components/Table/Table.jsx';
+import Table from './components/Table/Table.jsx'; 
 import NavigationBar from './components/NavigationBar/NavigationBar.jsx';
 // import ToDoAdd from './components/ToDoAdd/ToDoAdd.jsx'; 
 // import LoginPage from './components/LoginRegister/Login.jsx';
